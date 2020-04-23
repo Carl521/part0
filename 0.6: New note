@@ -1,4 +1,4 @@
 title New note spa
 
-Browser->Server: POST new_note_spa (json)
+Browser->Server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa (json)
 Server-->Browser: 201 created
