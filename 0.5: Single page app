@@ -1,0 +1,12 @@
+title open single page app
+
+Browser->Server: GET spa html-doc
+Server-->Browser: spa html-doc
+Browser->Server: GET main.css
+Server-->Browser: main.css
+Browser->Server: GET spa.js
+Server-->Browser: spa.js
+Browser->Server: GET data.json
+Server-->Browser: data.json
+Browser->Server: GET favicon.ico image
+Server-->Browser: 404 not found status code
