@@ -1,0 +1,15 @@
+title Create a new note
+
+Browser->Server: form submit POST request
+Server->Browser: URL redirect
+note over Browser: do a new GET request
+Browser->Server: GET notes
+Server-->Browser: Notes
+Browser->Server: GET main.css
+Server-->Browser: main.css
+Browser->Server: GET main.js
+Server-->Browser: main.js
+Browser->Server: GET data.json
+Server-->Browser: data.json
+note over Browser: executes event handler
+note over Browser: renders the notes to the page
